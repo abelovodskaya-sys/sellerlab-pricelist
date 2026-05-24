@@ -37,16 +37,13 @@ export function PricelistShell({ lang, data }: Props) {
 
   return (
     <div className="flex-1">
-      {/* Hero */}
-      <section className="bg-[var(--color-navy)] px-6 pt-12 pb-10 text-white sm:px-8 sm:pt-16 sm:pb-14">
-        <div className="mx-auto max-w-[1200px]">
-          <div className="mb-3 inline-flex items-center rounded-[16px] bg-[var(--color-yellow)] px-3.5 py-1 text-xs font-semibold text-[var(--color-ink)]">
-            {ui.updatedLabel}: 2026
-          </div>
-          <h1 className="text-[clamp(1.9rem,3.2vw,2.75rem)] font-bold leading-[1.1] tracking-tight">
+      {/* Compact hero — single row with title + tagline */}
+      <section className="bg-[var(--color-navy)] px-6 py-6 text-white sm:px-8 sm:py-7">
+        <div className="mx-auto flex max-w-[1200px] flex-col gap-1 sm:flex-row sm:items-baseline sm:gap-5">
+          <h1 className="text-[clamp(1.35rem,2.2vw,1.75rem)] font-bold leading-tight tracking-tight">
             {ui.siteTitle}
           </h1>
-          <p className="mt-3 max-w-[640px] text-[15px] text-white/70 sm:text-base">{ui.tagline}</p>
+          <p className="text-[13px] text-white/65 sm:text-sm">{ui.tagline}</p>
         </div>
       </section>
 
@@ -77,8 +74,10 @@ export function PricelistShell({ lang, data }: Props) {
       </nav>
 
       {/* Content */}
-      <section className="mx-auto max-w-[1200px] px-6 py-10 sm:px-8 sm:py-14">
-        <p className="mb-6 text-[13px] leading-relaxed text-[var(--color-muted)]">{ui.notice}</p>
+      <section className="mx-auto max-w-[1200px] px-6 py-8 sm:px-8 sm:py-10">
+        <p className="mb-6 text-[12px] italic leading-relaxed text-[var(--color-muted)]">
+          {ui.notice}
+        </p>
         {active === "fulfillment" && <FulfillmentTab data={data.fulfillment} />}
         {active === "returns" && <ReturnsTab data={data.returns} />}
         {active === "cards" && <CardsTab data={data.cards} />}

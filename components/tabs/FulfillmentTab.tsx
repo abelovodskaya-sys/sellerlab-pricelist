@@ -3,14 +3,8 @@ import type { FulfillmentData } from "@/lib/types";
 export function FulfillmentTab({ data }: { data: FulfillmentData }) {
   return (
     <div className="space-y-12">
-      {data.intro?.note && (
-        <p className="rounded-2xl bg-[var(--color-smoke)] px-5 py-4 text-sm text-[var(--color-ink)]">
-          {data.intro.note}
-        </p>
-      )}
-
       {/* Main matrix */}
-      <Section title={data.matrix.title}>
+      <Section title={data.matrix.title} description={data.intro?.note}>
         <div className="overflow-x-auto rounded-[20px] border border-[var(--color-soft)]">
           <table className="w-full min-w-[760px] border-collapse text-[13px]">
             <thead>

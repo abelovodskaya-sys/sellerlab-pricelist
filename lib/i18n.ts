@@ -24,18 +24,22 @@ export type UIStrings = {
   tagline: string;
   contactCta: string;
   contactCtaUrl: string;
+  telegramLabel: string;
   tabs: Record<TabKey, string>;
   updatedLabel: string;
   notice: string;
   langSwitcherLabel: string;
 };
 
+export const TELEGRAM_URL = "https://t.me/sellerlabpacking";
+
 export const UI: Record<Lang, UIStrings> = {
   ru: {
     siteTitle: "Прайс-лист SellerLab",
     tagline: "Актуальные тарифы. Фулфилмент, возвраты, контент, ведение магазинов.",
-    contactCta: "Обсудить условия",
+    contactCta: "Обсудить проект",
     contactCtaUrl: "https://t.me/sellerlabuz",
+    telegramLabel: "Telegram",
     tabs: {
       fulfillment: "Фулфилмент",
       returns: "Возвраты с МП",
@@ -50,8 +54,9 @@ export const UI: Record<Lang, UIStrings> = {
   uz: {
     siteTitle: "SellerLab narxlar ro'yxati",
     tagline: "Dolzarb tariflar. Fulfilment, qaytarishlar, kontent, do'konlarni boshqarish.",
-    contactCta: "Shartlarni muhokama qilish",
+    contactCta: "Loyihani muhokama qilish",
     contactCtaUrl: "https://t.me/sellerlabuz",
+    telegramLabel: "Telegram",
     tabs: {
       fulfillment: "Fulfilment",
       returns: "MPdan qaytarishlar",
@@ -66,8 +71,9 @@ export const UI: Record<Lang, UIStrings> = {
   en: {
     siteTitle: "SellerLab Pricelist",
     tagline: "Current rates. Fulfillment, returns, content, shop management.",
-    contactCta: "Discuss terms",
+    contactCta: "Discuss your project",
     contactCtaUrl: "https://t.me/sellerlabuz",
+    telegramLabel: "Telegram",
     tabs: {
       fulfillment: "Fulfillment",
       returns: "Marketplace returns",
@@ -82,8 +88,9 @@ export const UI: Record<Lang, UIStrings> = {
   zh: {
     siteTitle: "SellerLab 价目表",
     tagline: "最新费率：履约、退货、内容、店铺运营。",
-    contactCta: "讨论条款",
+    contactCta: "讨论项目",
     contactCtaUrl: "https://t.me/sellerlabuz",
+    telegramLabel: "Telegram",
     tabs: {
       fulfillment: "履约服务",
       returns: "电商平台退货",
