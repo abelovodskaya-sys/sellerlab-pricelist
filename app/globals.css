@@ -1,26 +1,50 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme {
+  /* SellerLab brand colors */
+  --color-navy: #0a2463;
+  --color-sky: #1e52a4;
+  --color-yellow: #fede57;
+  --color-ink: #00051a;
+  --color-canvas: #ffffff;
+  --color-smoke: #f0f2f4;
+  --color-soft: #e5e6e8;
+  --color-muted: #5a5f7a;
+
+  /* Typography */
+  --font-sans: var(--font-inter), system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+
+  /* Radii — mirroring sellerlab.uz Planpoint scale */
+  --radius-card: 28.8px;
+  --radius-badge: 16px;
+  --radius-pill: 57.6px;
+
+  /* Shadows */
+  --shadow-soft: 0 8px 48px 0 rgb(0 0 0 / 0.06);
+  --shadow-sm-soft: 0 4px 20px 0 rgb(0 0 0 / 0.04);
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans);
+  color: var(--color-ink);
+  background: var(--color-canvas);
+  font-size: 16px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
 }
