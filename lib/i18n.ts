@@ -39,7 +39,7 @@ export const calculatorUrl = (lang: Lang) => `https://calc.sellerlab.uz/?lang=${
 export const UI: Record<Lang, UIStrings> = {
   ru: {
     siteTitle: "Прайс-лист SellerLab",
-    tagline: "Актуальные тарифы. Фулфилмент, возвраты, контент, ведение магазинов.",
+    tagline: "Фулфилмент в Ташкенте, возвраты, контент, ведение магазинов на Uzum Market, WB, Yandex Market Go.",
     contactCta: "Обсудить проект",
     contactCtaUrl: "https://t.me/sellerlabuz",
     telegramLabel: "Telegram",
@@ -57,7 +57,7 @@ export const UI: Record<Lang, UIStrings> = {
   },
   uz: {
     siteTitle: "SellerLab narxlar ro'yxati",
-    tagline: "Dolzarb tariflar. Fulfilment, qaytarishlar, kontent, do'konlarni boshqarish.",
+    tagline: "Toshkentda fulfilment, qaytarishlar, kontent, Uzum Market, WB, Yandex Market Go do'konlarini boshqarish.",
     contactCta: "Loyihani muhokama qilish",
     contactCtaUrl: "https://t.me/sellerlabuz",
     telegramLabel: "Telegram",
@@ -75,7 +75,7 @@ export const UI: Record<Lang, UIStrings> = {
   },
   en: {
     siteTitle: "SellerLab Pricelist",
-    tagline: "Current rates. Fulfillment, returns, content, shop management.",
+    tagline: "Fulfillment in Tashkent, returns, content, shop management on Uzum Market, WB, Yandex Market Go.",
     contactCta: "Discuss your project",
     contactCtaUrl: "https://t.me/sellerlabuz",
     telegramLabel: "Telegram",
@@ -93,7 +93,7 @@ export const UI: Record<Lang, UIStrings> = {
   },
   zh: {
     siteTitle: "SellerLab 价目表",
-    tagline: "最新费率：履约、退货、内容、店铺运营。",
+    tagline: "塔什干履约、退货、内容、Uzum Market / WB / Yandex Market Go 店铺运营。",
     contactCta: "讨论项目",
     contactCtaUrl: "https://t.me/sellerlabuz",
     telegramLabel: "Telegram",
