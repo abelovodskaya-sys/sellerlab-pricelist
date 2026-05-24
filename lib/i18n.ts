@@ -25,6 +25,7 @@ export type UIStrings = {
   contactCta: string;
   contactCtaUrl: string;
   telegramLabel: string;
+  calculatorLabel: string;
   tabs: Record<TabKey, string>;
   updatedLabel: string;
   notice: string;
@@ -33,6 +34,8 @@ export type UIStrings = {
 
 export const TELEGRAM_URL = "https://t.me/sellerlabpacking";
 
+export const calculatorUrl = (lang: Lang) => `https://calc.sellerlab.uz/?lang=${lang}`;
+
 export const UI: Record<Lang, UIStrings> = {
   ru: {
     siteTitle: "Прайс-лист SellerLab",
@@ -40,6 +43,7 @@ export const UI: Record<Lang, UIStrings> = {
     contactCta: "Обсудить проект",
     contactCtaUrl: "https://t.me/sellerlabuz",
     telegramLabel: "Telegram",
+    calculatorLabel: "Калькулятор",
     tabs: {
       fulfillment: "Фулфилмент",
       returns: "Возвраты с МП",
@@ -57,6 +61,7 @@ export const UI: Record<Lang, UIStrings> = {
     contactCta: "Loyihani muhokama qilish",
     contactCtaUrl: "https://t.me/sellerlabuz",
     telegramLabel: "Telegram",
+    calculatorLabel: "Kalkulyator",
     tabs: {
       fulfillment: "Fulfilment",
       returns: "MPdan qaytarishlar",
@@ -74,6 +79,7 @@ export const UI: Record<Lang, UIStrings> = {
     contactCta: "Discuss your project",
     contactCtaUrl: "https://t.me/sellerlabuz",
     telegramLabel: "Telegram",
+    calculatorLabel: "Calculator",
     tabs: {
       fulfillment: "Fulfillment",
       returns: "Marketplace returns",
@@ -91,6 +97,7 @@ export const UI: Record<Lang, UIStrings> = {
     contactCta: "讨论项目",
     contactCtaUrl: "https://t.me/sellerlabuz",
     telegramLabel: "Telegram",
+    calculatorLabel: "计算器",
     tabs: {
       fulfillment: "履约服务",
       returns: "电商平台退货",

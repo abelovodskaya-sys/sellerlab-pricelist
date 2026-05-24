@@ -33,7 +33,7 @@ export function Header({ lang }: { lang: Lang }) {
             href={ui.contactCtaUrl}
             target="_blank"
             rel="noopener"
-            className="inline-flex items-center gap-1.5 rounded-[57.6px] bg-[var(--color-navy)] px-4 py-2 text-[13px] font-semibold text-white shadow-[0_4px_16px_0_rgb(10_36_99_/_0.22)] transition-shadow hover:shadow-[0_8px_28px_0_rgb(10_36_99_/_0.32)] sm:px-5 sm:py-2.5"
+            className="inline-flex items-center gap-1.5 rounded-[57.6px] bg-[var(--color-yellow)] px-4 py-2 text-[13px] font-semibold text-[var(--color-navy)] shadow-[0_4px_16px_0_rgb(254_222_87_/_0.45)] transition-shadow hover:shadow-[0_8px_28px_0_rgb(254_222_87_/_0.65)] sm:px-5 sm:py-2.5"
           >
             {ui.contactCta}
           </a>

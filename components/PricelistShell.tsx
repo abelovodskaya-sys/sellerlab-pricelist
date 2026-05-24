@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
-import { TABS, UI, type TabKey, type Lang } from "@/lib/i18n";
+import { TABS, UI, calculatorUrl, type TabKey, type Lang } from "@/lib/i18n";
 import type { CardsData, FulfillmentData, ReturnsData, ShopBoostData } from "@/lib/types";
 import { FulfillmentTab } from "./tabs/FulfillmentTab";
 import { ReturnsTab } from "./tabs/ReturnsTab";
@@ -49,7 +49,7 @@ export function PricelistShell({ lang, data }: Props) {
 
       {/* Tabs nav */}
       <nav className="sticky top-[72px] z-30 border-b border-[var(--color-soft)] bg-white/95 backdrop-blur-md">
-        <div className="mx-auto flex max-w-[1200px] gap-1 overflow-x-auto px-3 sm:px-8">
+        <div className="mx-auto flex max-w-[1200px] items-center gap-1 overflow-x-auto px-3 sm:px-8">
           {TABS.map((tab) => {
             const isActive = active === tab;
             return (
@@ -70,6 +70,27 @@ export function PricelistShell({ lang, data }: Props) {
               </button>
             );
           })}
+          <a
+            href={calculatorUrl(lang)}
+            target="_blank"
+            rel="noopener"
+            className="ml-auto inline-flex flex-shrink-0 items-center gap-1.5 whitespace-nowrap px-3 py-4 text-[13px] font-semibold text-[var(--color-muted)] transition-colors hover:text-[var(--color-navy)] sm:text-sm"
+          >
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
+              <rect x="4" y="2" width="16" height="20" rx="2" />
+              <line x1="8" y1="6" x2="16" y2="6" />
+              <line x1="8" y1="10" x2="10" y2="10" />
+              <line x1="14" y1="10" x2="16" y2="10" />
+              <line x1="8" y1="14" x2="10" y2="14" />
+              <line x1="14" y1="14" x2="16" y2="14" />
+              <line x1="8" y1="18" x2="10" y2="18" />
+              <line x1="14" y1="18" x2="16" y2="18" />
+            </svg>
+            <span>{ui.calculatorLabel}</span>
+            <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" aria-hidden className="opacity-60">
+              <path d="M7 17L17 7M9 7h8v8" />
+            </svg>
+          </a>
         </div>
       </nav>
 
