@@ -10,15 +10,15 @@ export function FulfillmentTab({ data, lang }: { data: FulfillmentData; lang: La
         <div className="overflow-x-auto rounded-[20px] border border-[var(--color-soft)]">
           <table className="w-full min-w-[760px] border-collapse text-[13px]">
             <thead>
-              <tr className="bg-[var(--color-smoke)] text-left">
-                <th className="px-4 py-3 font-semibold text-[var(--color-ink)]" rowSpan={2}>
+              <tr className="text-left">
+                <th className="sticky top-[124px] z-20 bg-[var(--color-smoke)] px-4 py-3 text-left font-semibold text-[var(--color-ink)]" rowSpan={2}>
                   {ui.th.service}
                 </th>
-                <th className="px-4 py-3 font-semibold text-[var(--color-ink)]" rowSpan={2}>
+                <th className="sticky top-[124px] z-20 bg-[var(--color-smoke)] px-4 py-3 text-left font-semibold text-[var(--color-ink)]" rowSpan={2}>
                   {ui.th.tier}
                 </th>
                 {data.matrix.columns.map((c) => (
-                  <th key={c.label} className="px-3 py-2 text-center align-bottom">
+                  <th key={c.label} className="sticky top-[124px] z-20 bg-[var(--color-smoke)] px-3 py-2 text-center align-bottom">
                     {c.category && (
                       <div className="text-[10px] font-bold uppercase tracking-wider text-[var(--color-muted)]">
                         {c.category}
@@ -44,10 +44,10 @@ export function FulfillmentTab({ data, lang }: { data: FulfillmentData; lang: La
         <div className="overflow-x-auto rounded-[20px] border border-[var(--color-soft)]">
           <table className="w-full min-w-[680px] border-collapse text-[13px]">
             <thead>
-              <tr className="bg-[var(--color-smoke)] text-left">
-                <th className="px-4 py-3 font-semibold text-[var(--color-ink)]">{ui.th.service}</th>
+              <tr className="text-left">
+                <th className="sticky top-[124px] z-20 bg-[var(--color-smoke)] px-4 py-3 text-left font-semibold text-[var(--color-ink)]">{ui.th.service}</th>
                 {data.fbs.columns.map((c) => (
-                  <th key={c.label} className="px-3 py-3 text-center">
+                  <th key={c.label} className="sticky top-[124px] z-20 bg-[var(--color-smoke)] px-3 py-3 text-center">
                     {c.category && (
                       <div className="text-[10px] font-bold uppercase tracking-wider text-[var(--color-muted)]">
                         {c.category}
@@ -84,10 +84,10 @@ export function FulfillmentTab({ data, lang }: { data: FulfillmentData; lang: La
         <div className="overflow-x-auto rounded-[20px] border border-[var(--color-soft)]">
           <table className="w-full min-w-[480px] border-collapse text-[13px]">
             <thead>
-              <tr className="bg-[var(--color-smoke)] text-left">
-                <th className="px-4 py-3 font-semibold text-[var(--color-ink)]">{ui.th.type}</th>
+              <tr className="text-left">
+                <th className="sticky top-[124px] z-20 bg-[var(--color-smoke)] px-4 py-3 text-left font-semibold text-[var(--color-ink)]">{ui.th.type}</th>
                 {data.supply.platforms.map((p) => (
-                  <th key={p} className="px-4 py-3 text-center font-semibold text-[var(--color-navy)]">
+                  <th key={p} className="sticky top-[124px] z-20 bg-[var(--color-smoke)] px-4 py-3 text-center font-semibold text-[var(--color-navy)]">
                     {p}
                   </th>
                 ))}

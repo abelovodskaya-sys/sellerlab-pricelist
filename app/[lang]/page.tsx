@@ -6,6 +6,7 @@ import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { PricelistShell } from "@/components/PricelistShell";
 import { HtmlLangUpdater } from "@/components/HtmlLangUpdater";
+import { StickyTelegram } from "@/components/StickyTelegram";
 import type { Metadata } from "next";
 
 export function generateStaticParams() {
@@ -50,6 +51,7 @@ export default async function LangPage({
         <PricelistShell lang={typed} data={data} />
       </Suspense>
       <Footer lang={typed} />
+      <StickyTelegram lang={typed} />
     </>
   );
 }

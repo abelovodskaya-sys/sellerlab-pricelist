@@ -74,7 +74,7 @@ export function PricelistShell({ lang, data }: Props) {
             href={calculatorUrl(lang)}
             target="_blank"
             rel="noopener"
-            className="ml-auto inline-flex flex-shrink-0 items-center gap-1.5 whitespace-nowrap px-3 py-4 text-[13px] font-semibold text-[var(--color-muted)] transition-colors hover:text-[var(--color-navy)] sm:text-sm"
+            className="ml-auto hidden flex-shrink-0 items-center gap-1.5 whitespace-nowrap px-3 py-4 text-[13px] font-semibold text-[var(--color-muted)] transition-colors hover:text-[var(--color-navy)] sm:inline-flex sm:text-sm"
           >
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
               <rect x="4" y="2" width="16" height="20" rx="2" />
@@ -95,10 +95,32 @@ export function PricelistShell({ lang, data }: Props) {
       </nav>
 
       {/* Content */}
-      <section className="mx-auto max-w-[1200px] px-6 py-8 sm:px-8 sm:py-10">
-        <p className="mb-6 text-[12px] italic leading-relaxed text-[var(--color-muted)]">
-          {ui.notice}
-        </p>
+      <section className="mx-auto max-w-[1200px] px-4 py-6 sm:px-8 sm:py-10">
+        <div className="mb-5 flex items-start justify-between gap-3">
+          <p className="flex-1 text-[12px] italic leading-relaxed text-[var(--color-muted)]">
+            {ui.notice}
+          </p>
+          {/* Mobile-only Calculator CTA — desktop has it in tabs nav */}
+          <a
+            href={calculatorUrl(lang)}
+            target="_blank"
+            rel="noopener"
+            className="inline-flex flex-shrink-0 items-center gap-1.5 self-start whitespace-nowrap rounded-[57.6px] border border-[var(--color-soft)] bg-white px-3 py-1.5 text-[12px] font-semibold text-[var(--color-navy)] sm:hidden"
+          >
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
+              <rect x="4" y="2" width="16" height="20" rx="2" />
+              <line x1="8" y1="6" x2="16" y2="6" />
+              <line x1="8" y1="10" x2="10" y2="10" />
+              <line x1="14" y1="10" x2="16" y2="10" />
+              <line x1="8" y1="14" x2="10" y2="14" />
+              <line x1="14" y1="14" x2="16" y2="14" />
+            </svg>
+            <span>{ui.calculatorLabel}</span>
+            <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" aria-hidden className="opacity-60">
+              <path d="M7 17L17 7M9 7h8v8" />
+            </svg>
+          </a>
+        </div>
         {active === "fulfillment" && <FulfillmentTab data={data.fulfillment} lang={lang} />}
         {active === "returns" && <ReturnsTab data={data.returns} lang={lang} />}
         {active === "cards" && <CardsTab data={data.cards} />}
