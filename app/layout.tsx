@@ -13,6 +13,16 @@ export const metadata: Metadata = {
   description:
     "Актуальные тарифы SellerLab: фулфилмент, возвраты с маркетплейсов, создание карточек и инфографики, ведение магазинов и Буст в топ.",
   icons: { icon: "/favicon.png" },
+  robots: {
+    index: false,
+    follow: false,
+    nocache: true,
+    googleBot: {
+      index: false,
+      follow: false,
+      noimageindex: true,
+    },
+  },
 };
 
 export default function RootLayout({

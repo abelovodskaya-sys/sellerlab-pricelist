@@ -42,3 +42,5 @@ next-env.d.ts
 
 # local dev helpers (path-specific, not portable)
 /start-dev.cmd
+
+.vercel
