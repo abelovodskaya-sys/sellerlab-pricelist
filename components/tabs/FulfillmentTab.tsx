@@ -1,6 +1,8 @@
 import type { FulfillmentData } from "@/lib/types";
+import { UI, type Lang } from "@/lib/i18n";
 
-export function FulfillmentTab({ data }: { data: FulfillmentData }) {
+export function FulfillmentTab({ data, lang }: { data: FulfillmentData; lang: Lang }) {
+  const ui = UI[lang];
   return (
     <div className="space-y-12">
       {/* Main matrix */}
@@ -10,10 +12,10 @@ export function FulfillmentTab({ data }: { data: FulfillmentData }) {
             <thead>
               <tr className="bg-[var(--color-smoke)] text-left">
                 <th className="px-4 py-3 font-semibold text-[var(--color-ink)]" rowSpan={2}>
-                  Услуга
+                  {ui.th.service}
                 </th>
                 <th className="px-4 py-3 font-semibold text-[var(--color-ink)]" rowSpan={2}>
-                  Тираж
+                  {ui.th.tier}
                 </th>
                 {data.matrix.columns.map((c) => (
                   <th key={c.label} className="px-3 py-2 text-center align-bottom">
@@ -43,7 +45,7 @@ export function FulfillmentTab({ data }: { data: FulfillmentData }) {
           <table className="w-full min-w-[680px] border-collapse text-[13px]">
             <thead>
               <tr className="bg-[var(--color-smoke)] text-left">
-                <th className="px-4 py-3 font-semibold text-[var(--color-ink)]">Услуга</th>
+                <th className="px-4 py-3 font-semibold text-[var(--color-ink)]">{ui.th.service}</th>
                 {data.fbs.columns.map((c) => (
                   <th key={c.label} className="px-3 py-3 text-center">
                     {c.category && (
@@ -83,7 +85,7 @@ export function FulfillmentTab({ data }: { data: FulfillmentData }) {
           <table className="w-full min-w-[480px] border-collapse text-[13px]">
             <thead>
               <tr className="bg-[var(--color-smoke)] text-left">
-                <th className="px-4 py-3 font-semibold text-[var(--color-ink)]">Тип</th>
+                <th className="px-4 py-3 font-semibold text-[var(--color-ink)]">{ui.th.type}</th>
                 {data.supply.platforms.map((p) => (
                   <th key={p} className="px-4 py-3 text-center font-semibold text-[var(--color-navy)]">
                     {p}

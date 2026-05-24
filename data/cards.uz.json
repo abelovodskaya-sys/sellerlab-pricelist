@@ -1,0 +1,103 @@
+{
+  "groups": [
+    {
+      "title": "Mahsulot kartochkalarini yaratish",
+      "subtitle": "Uzum Market",
+      "items": [
+        {
+          "label": "Mahsulot kartochkasini yaratish",
+          "description": "Foto va/yoki infografikani buyurtmachi taqdim etadi.",
+          "price": "85 000"
+        },
+        {
+          "label": "Mavjud kartochkalar matnlarini SEO-optimallashtirish va tahrirlash",
+          "description": "2 tilda.",
+          "price": "45 000"
+        }
+      ]
+    },
+    {
+      "title": "Mahsulot kartochkalarini yaratish",
+      "subtitle": "Wildberries va Yandex Market",
+      "items": [
+        {
+          "label": "Variantlar guruhida birinchi SKU yaratish",
+          "description": "Foto/infografika — buyurtmachidan.",
+          "price": "85 000"
+        },
+        {
+          "label": "Bir xil tavsif bilan ikkinchi va keyingi SKU yaratish",
+          "description": "Mahsulot xususiyatlari har bir SKU ning individual xarakteristikalariga ko'ra to'ldiriladi.",
+          "price": "25 000"
+        },
+        {
+          "label": "Noyob tavsif bilan ikkinchi va keyingi SKU yaratish",
+          "price": "85 000"
+        },
+        {
+          "label": "Mavjud kartochkalarni SEO-optimallashtirish (1 SKU uchun)",
+          "description": "2 tilda.",
+          "price": "20 000"
+        },
+        {
+          "label": "Uzum Market kartochkalarini Yandex Market'ga ko'chirish",
+          "price": "so'rov bo'yicha"
+        }
+      ]
+    },
+    {
+      "title": "Infografika",
+      "items": [
+        {
+          "label": "Noyob shablon ishlab chiqish (1 slayd)",
+          "description": "Aniq mahsulot turi uchun stilistika va ma'lumotlar joylashuvi.",
+          "price": "80 000"
+        },
+        {
+          "label": "Shablonni boshqa mahsulotga moslashtirish (1 moslashtirish uchun)",
+          "price": "20 000"
+        }
+      ]
+    },
+    {
+      "title": "Predmet suratga olish",
+      "subtitle": "Retush narxga kiritilgan",
+      "items": [
+        {
+          "label": "Kichik o'lchamli mahsulot (40 sm gacha), 3 kadr",
+          "price": "45 000"
+        },
+        {
+          "label": "4-chi va har bir keyingi kadr (kichik o'lcham)",
+          "price": "15 000"
+        },
+        {
+          "label": "Yirik mahsulot (>40 sm yoki >10 kg, idishlar to'plamlari), 3 kadr",
+          "price": "85 000"
+        },
+        {
+          "label": "4-chi va har bir keyingi kadr (yirik)",
+          "price": "18 000"
+        },
+        {
+          "label": "Model suratga olish (1 mahsulot, 5 kadr)",
+          "description": "Model xizmatlari hisobga olinmagan. 10 mahsulotdan boshlab suratga olish mumkin.",
+          "price": "130 000"
+        },
+        {
+          "label": "Asl fotoni Uzum standartiga tayyorlash",
+          "price": "15 000"
+        }
+      ]
+    },
+    {
+      "title": "Video",
+      "items": [
+        {
+          "label": "Predmet videosi (40 sek gacha, 10 MB gacha)",
+          "price": "150 000 dan"
+        }
+      ]
+    }
+  ]
+}

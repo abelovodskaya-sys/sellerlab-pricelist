@@ -1,0 +1,58 @@
+{
+  "groups": [
+    {
+      "title": "Uzum'da ro'yxatdan o'tish va do'kon ochish",
+      "intro": "Fotosuratlar va infografika kompleksga kirmaydi va prays-list bo'yicha alohida to'lanadi. Bitta kartochkada 10 tagacha SKU bo'lishi mumkin.",
+      "packages": [
+        {
+          "title": "Ro'yxatdan o'tish va do'kon ochish",
+          "price": "299 000",
+          "bonus": "Do'konning matn va vizual dizayni — sovg'a."
+        },
+        {
+          "title": "Kompleks: ro'yxatdan o'tish + 5 ta kartochka",
+          "description": "Kiritilgan: shaxsiy kabinet ro'yxati, do'kon yaratish, 5 ta kartochka yaratish.",
+          "price": "699 000",
+          "bonus": "Do'konning matn va vizual dizayni — sovg'a."
+        },
+        {
+          "title": "Kompleks: ro'yxatdan o'tish + 10 ta kartochka",
+          "description": "Kiritilgan: shaxsiy kabinet ro'yxati, do'kon yaratish, 10 ta kartochka yaratish.",
+          "price": "999 000",
+          "bonus": "Do'konning matn va vizual dizayni — sovg'a."
+        }
+      ]
+    },
+    {
+      "title": "Boost — Top'ga ko'tarish",
+      "packages": [
+        {
+          "title": "Reklama kampaniyasini sozlash va kuzatish",
+          "bullets": [
+            "Reklama kampaniyasini boshlang'ich sozlash",
+            "Kalit so'zlarni tanlash va optimallashtirish",
+            "Stavkalarni sozlash",
+            "Haftalik hisobot",
+            "Muntazam qo'ng'iroqlar"
+          ],
+          "description": "Davomiyligi: 1 haftadan 3 oygacha kuzatish.",
+          "price": "so'rov bo'yicha",
+          "ctaLabel": "Shartlarni so'rash",
+          "ctaUrl": "https://t.me/IrisYes"
+        }
+      ]
+    },
+    {
+      "title": "Do'konlarni boshqarish",
+      "packages": [
+        {
+          "title": "Uzum, Wildberries va Yandex Market'da do'konlarni boshqarish",
+          "description": "Ishlab chiqaruvchilar, distribyutorlar va yirik importchilar uchun. Shartlar mahsulot toifasiga bog'liq.",
+          "price": "individual",
+          "ctaLabel": "Shartlarni muhokama qilish",
+          "ctaUrl": "https://t.me/sellerlabuz"
+        }
+      ]
+    }
+  ]
+}

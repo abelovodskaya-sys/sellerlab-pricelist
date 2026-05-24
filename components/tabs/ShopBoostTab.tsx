@@ -1,6 +1,8 @@
 import type { ShopBoostData } from "@/lib/types";
+import { UI, type Lang } from "@/lib/i18n";
 
-export function ShopBoostTab({ data }: { data: ShopBoostData }) {
+export function ShopBoostTab({ data, lang }: { data: ShopBoostData; lang: Lang }) {
+  const ui = UI[lang];
   return (
     <div className="space-y-12">
       {data.groups.map((g, i) => (
@@ -35,7 +37,7 @@ export function ShopBoostTab({ data }: { data: ShopBoostData }) {
                 )}
                 {p.bonus && (
                   <div className="mt-4 rounded-xl bg-[var(--color-yellow)]/30 px-3 py-2 text-xs font-medium text-[var(--color-ink)]">
-                    Бонус: {p.bonus}
+                    {ui.bonusLabel}: {p.bonus}
                   </div>
                 )}
                 <div className="mt-5 flex items-end justify-between gap-3 border-t border-[var(--color-soft)] pt-4">

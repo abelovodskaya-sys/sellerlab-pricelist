@@ -1,0 +1,29 @@
+{
+  "transport": {
+    "title": "Marketpleysdan tovarni qaytarib olish",
+    "note": "Mashina sotuvchining qaytishi uchun maxsus boradi. Buyurtma berilgan kundan boshlab 3 ish kuni ichida bajariladi.",
+    "columns": ["Labo (2,5 m³ gacha)", "Gazel (8 paletgacha)"],
+    "rows": [
+      { "warehouse": "UZUM Quyluq", "prices": ["200 000", "580 000"] },
+      { "warehouse": "UZUM Sergeli", "prices": ["200 000", "580 000"] },
+      { "warehouse": "Yandex",      "prices": ["220 000", "620 000"] }
+    ]
+  },
+  "services": {
+    "title": "Ombordagi qaytishni qayta ishlash",
+    "items": [
+      { "label": "Qaytishni olishda tovarni qayta sanash", "description": "Bir dona uchun.", "price": "250" },
+      { "label": "Qaytarilgan brakni foto-hisobot bilan tekshirish", "price": "2 500" },
+      { "label": "60×40×40 quti", "price": "15 000" },
+      { "label": "Qutini yuklash-tushirish ishlari", "price": "2 500" },
+      { "label": "Paletni yuklash-tushirish (avtomatik)", "price": "10 000" },
+      { "label": "Paletni yuklash-tushirish (qo'lda)", "price": "20 000" },
+      { "label": "Yetkazib berishni chaqirish", "price": "25 000" },
+      {
+        "label": "Qaytishni saqlash (1 palet, 1 kun)",
+        "description": "Birinchi 5 kun bepul.",
+        "price": "4 500 dan"
+      }
+    ]
+  }
+}

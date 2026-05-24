@@ -1,0 +1,103 @@
+{
+  "groups": [
+    {
+      "title": "Creating product cards",
+      "subtitle": "Uzum Market",
+      "items": [
+        {
+          "label": "Create a product card",
+          "description": "Photo and/or infographic provided by the customer.",
+          "price": "85 000"
+        },
+        {
+          "label": "SEO optimization and editing of existing card texts",
+          "description": "In 2 languages.",
+          "price": "45 000"
+        }
+      ]
+    },
+    {
+      "title": "Creating product cards",
+      "subtitle": "Wildberries and Yandex Market",
+      "items": [
+        {
+          "label": "Create first SKU in a variant group",
+          "description": "Photo/infographic — provided by the customer.",
+          "price": "85 000"
+        },
+        {
+          "label": "Create second and subsequent SKUs with identical description",
+          "description": "Product attributes are filled in per each SKU's individual specs.",
+          "price": "25 000"
+        },
+        {
+          "label": "Create second and subsequent SKUs with unique description",
+          "price": "85 000"
+        },
+        {
+          "label": "SEO optimization of existing cards (per 1 SKU)",
+          "description": "In 2 languages.",
+          "price": "20 000"
+        },
+        {
+          "label": "Copying cards from Uzum Market to Yandex Market",
+          "price": "on request"
+        }
+      ]
+    },
+    {
+      "title": "Infographics",
+      "items": [
+        {
+          "label": "Unique template development (1 slide)",
+          "description": "Styling and information layout tailored to a specific product type.",
+          "price": "80 000"
+        },
+        {
+          "label": "Adapting the template for another product (per adaptation)",
+          "price": "20 000"
+        }
+      ]
+    },
+    {
+      "title": "Product photography",
+      "subtitle": "Retouching included",
+      "items": [
+        {
+          "label": "Small product (up to 40 cm), 3 shots",
+          "price": "45 000"
+        },
+        {
+          "label": "4th and each subsequent shot (small)",
+          "price": "15 000"
+        },
+        {
+          "label": "Large product (>40 cm or >10 kg, dishware sets), 3 shots",
+          "price": "85 000"
+        },
+        {
+          "label": "4th and each subsequent shot (large)",
+          "price": "18 000"
+        },
+        {
+          "label": "Model photography (1 product, 5 shots)",
+          "description": "Model fees not included. Available when shooting 10+ products.",
+          "price": "130 000"
+        },
+        {
+          "label": "Preparing customer-supplied photo to Uzum standard",
+          "price": "15 000"
+        }
+      ]
+    },
+    {
+      "title": "Video",
+      "items": [
+        {
+          "label": "Product video (up to 40 sec, up to 10 MB)",
+          "price": "from 150 000"
+        }
+      ]
+    }
+  ]
+}

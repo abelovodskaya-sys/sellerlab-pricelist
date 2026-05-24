@@ -1,0 +1,58 @@
+{
+  "groups": [
+    {
+      "title": "Uzum registration & store opening",
+      "intro": "Photos and infographics are not part of the package and are billed per pricelist. A single card can have up to 10 SKUs.",
+      "packages": [
+        {
+          "title": "Registration & store opening",
+          "price": "299 000",
+          "bonus": "Store text and visual design — included as a gift."
+        },
+        {
+          "title": "Package: registration + 5 cards",
+          "description": "Includes: account registration, store creation, 5 product cards.",
+          "price": "699 000",
+          "bonus": "Store text and visual design — included as a gift."
+        },
+        {
+          "title": "Package: registration + 10 cards",
+          "description": "Includes: account registration, store creation, 10 product cards.",
+          "price": "999 000",
+          "bonus": "Store text and visual design — included as a gift."
+        }
+      ]
+    },
+    {
+      "title": "Boost to top",
+      "packages": [
+        {
+          "title": "Ad-campaign setup and management",
+          "bullets": [
+            "Initial ad campaign setup",
+            "Keyword research and optimization",
+            "Bid management",
+            "Weekly reporting",
+            "Regular calls"
+          ],
+          "description": "Duration: from 1 week up to 3 months of management.",
+          "price": "on request",
+          "ctaLabel": "Request terms",
+          "ctaUrl": "https://t.me/IrisYes"
+        }
+      ]
+    },
+    {
+      "title": "Shop management",
+      "packages": [
+        {
+          "title": "Managed shops on Uzum, Wildberries, and Yandex Market",
+          "description": "For manufacturers, distributors, and large importers. Terms depend on the product category.",
+          "price": "individual",
+          "ctaLabel": "Discuss terms",
+          "ctaUrl": "https://t.me/sellerlabuz"
+        }
+      ]
+    }
+  ]
+}

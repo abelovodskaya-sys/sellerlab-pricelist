@@ -1,0 +1,29 @@
+{
+  "transport": {
+    "title": "Marketplace return pickup",
+    "note": "A vehicle is dispatched specifically for the seller's return. Performed within 3 business days of the request.",
+    "columns": ["Labo van (up to 2.5 m³)", "Gazelle truck (up to 8 pallets)"],
+    "rows": [
+      { "warehouse": "UZUM Kuyluk", "prices": ["200 000", "580 000"] },
+      { "warehouse": "UZUM Sergeli", "prices": ["200 000", "580 000"] },
+      { "warehouse": "Yandex",       "prices": ["220 000", "620 000"] }
+    ]
+  },
+  "services": {
+    "title": "Return processing at the warehouse",
+    "items": [
+      { "label": "Recount during return pickup", "description": "Per unit.", "price": "250" },
+      { "label": "Defect inspection with photo report", "price": "2 500" },
+      { "label": "Box 60×40×40 cm", "price": "15 000" },
+      { "label": "Box loading / unloading", "price": "2 500" },
+      { "label": "Pallet handling (automated)", "price": "10 000" },
+      { "label": "Pallet handling (manual)", "price": "20 000" },
+      { "label": "Courier dispatch", "price": "25 000" },
+      {
+        "label": "Return storage (per pallet, per day)",
+        "description": "First 5 days free.",
+        "price": "from 4 500"
+      }
+    ]
+  }
+}

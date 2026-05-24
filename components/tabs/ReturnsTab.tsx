@@ -1,6 +1,8 @@
 import type { ReturnsData } from "@/lib/types";
+import { UI, type Lang } from "@/lib/i18n";
 
-export function ReturnsTab({ data }: { data: ReturnsData }) {
+export function ReturnsTab({ data, lang }: { data: ReturnsData; lang: Lang }) {
+  const ui = UI[lang];
   return (
     <div className="space-y-12">
       <div>
@@ -16,7 +18,7 @@ export function ReturnsTab({ data }: { data: ReturnsData }) {
           <table className="w-full min-w-[520px] border-collapse text-[13px]">
             <thead>
               <tr className="bg-[var(--color-smoke)] text-left">
-                <th className="px-4 py-3 font-semibold text-[var(--color-ink)]">Склад</th>
+                <th className="px-4 py-3 font-semibold text-[var(--color-ink)]">{ui.th.warehouse}</th>
                 {data.transport.columns.map((c) => (
                   <th key={c} className="px-4 py-3 text-center font-semibold text-[var(--color-navy)]">
                     {c}

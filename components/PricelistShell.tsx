@@ -99,10 +99,10 @@ export function PricelistShell({ lang, data }: Props) {
         <p className="mb-6 text-[12px] italic leading-relaxed text-[var(--color-muted)]">
           {ui.notice}
         </p>
-        {active === "fulfillment" && <FulfillmentTab data={data.fulfillment} />}
-        {active === "returns" && <ReturnsTab data={data.returns} />}
+        {active === "fulfillment" && <FulfillmentTab data={data.fulfillment} lang={lang} />}
+        {active === "returns" && <ReturnsTab data={data.returns} lang={lang} />}
         {active === "cards" && <CardsTab data={data.cards} />}
-        {active === "shop-boost" && <ShopBoostTab data={data.shopBoost} />}
+        {active === "shop-boost" && <ShopBoostTab data={data.shopBoost} lang={lang} />}
       </section>
     </div>
   );

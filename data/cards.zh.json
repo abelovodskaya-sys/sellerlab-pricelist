@@ -1,0 +1,103 @@
+{
+  "groups": [
+    {
+      "title": "创建商品卡片",
+      "subtitle": "Uzum Market",
+      "items": [
+        {
+          "label": "创建商品卡片",
+          "description": "图片和/或信息图由客户提供。",
+          "price": "85 000"
+        },
+        {
+          "label": "现有卡片文案 SEO 优化与编辑",
+          "description": "双语。",
+          "price": "45 000"
+        }
+      ]
+    },
+    {
+      "title": "创建商品卡片",
+      "subtitle": "Wildberries 和 Yandex Market",
+      "items": [
+        {
+          "label": "在变体组中创建首个 SKU",
+          "description": "图片/信息图由客户提供。",
+          "price": "85 000"
+        },
+        {
+          "label": "创建相同描述的后续 SKU",
+          "description": "属性按各 SKU 的个性化参数填写。",
+          "price": "25 000"
+        },
+        {
+          "label": "创建独立描述的后续 SKU",
+          "price": "85 000"
+        },
+        {
+          "label": "现有卡片 SEO 优化（按 SKU 计）",
+          "description": "双语。",
+          "price": "20 000"
+        },
+        {
+          "label": "将卡片从 Uzum Market 复制到 Yandex Market",
+          "price": "询价"
+        }
+      ]
+    },
+    {
+      "title": "信息图",
+      "items": [
+        {
+          "label": "独家模板开发（1 张幻灯片）",
+          "description": "针对具体商品类型的风格与信息排版。",
+          "price": "80 000"
+        },
+        {
+          "label": "为其他商品适配模板（每次适配）",
+          "price": "20 000"
+        }
+      ]
+    },
+    {
+      "title": "商品摄影",
+      "subtitle": "含修图",
+      "items": [
+        {
+          "label": "小型商品（至 40 cm），3 张",
+          "price": "45 000"
+        },
+        {
+          "label": "第 4 张及之后每张（小型）",
+          "price": "15 000"
+        },
+        {
+          "label": "大型商品（>40 cm 或 >10 kg，餐具套装），3 张",
+          "price": "85 000"
+        },
+        {
+          "label": "第 4 张及之后每张（大型）",
+          "price": "18 000"
+        },
+        {
+          "label": "模特拍摄（1 件商品，5 张）",
+          "description": "不含模特费。10 件起接拍。",
+          "price": "130 000"
+        },
+        {
+          "label": "按 Uzum 标准处理客户提供的原图",
+          "price": "15 000"
+        }
+      ]
+    },
+    {
+      "title": "视频",
+      "items": [
+        {
+          "label": "商品视频（至 40 秒，至 10 MB）",
+          "price": "150 000 起"
+        }
+      ]
+    }
+  ]
+}

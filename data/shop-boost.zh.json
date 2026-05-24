@@ -1,0 +1,58 @@
+{
+  "groups": [
+    {
+      "title": "Uzum 注册与开店",
+      "intro": "图片和信息图不包含在套餐内，按价目表另行收费。每张商品卡片最多可含 10 个 SKU。",
+      "packages": [
+        {
+          "title": "注册与开店",
+          "price": "299 000",
+          "bonus": "店铺文字与视觉设计 — 赠送。"
+        },
+        {
+          "title": "套餐：注册 + 5 张卡片",
+          "description": "包含：账户注册、开店、创建 5 张商品卡片。",
+          "price": "699 000",
+          "bonus": "店铺文字与视觉设计 — 赠送。"
+        },
+        {
+          "title": "套餐：注册 + 10 张卡片",
+          "description": "包含：账户注册、开店、创建 10 张商品卡片。",
+          "price": "999 000",
+          "bonus": "店铺文字与视觉设计 — 赠送。"
+        }
+      ]
+    },
+    {
+      "title": "推广至顶部",
+      "packages": [
+        {
+          "title": "广告活动设置与运营",
+          "bullets": [
+            "广告活动初始设置",
+            "关键词选择与优化",
+            "出价管理",
+            "每周报告",
+            "定期沟通"
+          ],
+          "description": "运营周期：从 1 周至 3 个月。",
+          "price": "询价",
+          "ctaLabel": "咨询条款",
+          "ctaUrl": "https://t.me/IrisYes"
+        }
+      ]
+    },
+    {
+      "title": "店铺运营",
+      "packages": [
+        {
+          "title": "Uzum、Wildberries、Yandex Market 店铺运营",
+          "description": "面向制造商、经销商和大型进口商。条款取决于商品类别。",
+          "price": "个性化",
+          "ctaLabel": "商谈条款",
+          "ctaUrl": "https://t.me/sellerlabuz"
+        }
+      ]
+    }
+  ]
+}

@@ -30,6 +30,8 @@ export type UIStrings = {
   updatedLabel: string;
   notice: string;
   langSwitcherLabel: string;
+  bonusLabel: string;
+  th: { service: string; tier: string; type: string; warehouse: string };
 };
 
 export const TELEGRAM_URL = "https://t.me/sellerlabpacking";
@@ -54,6 +56,8 @@ export const UI: Record<Lang, UIStrings> = {
     notice:
       "Цены указаны в сумах. Финальная стоимость по конкретному товару — после расчёта менеджером.",
     langSwitcherLabel: "Язык",
+    bonusLabel: "Бонус",
+    th: { service: "Услуга", tier: "Тираж", type: "Тип", warehouse: "Склад" },
   },
   uz: {
     siteTitle: "SellerLab narxlar ro'yxati",
@@ -72,6 +76,8 @@ export const UI: Record<Lang, UIStrings> = {
     notice:
       "Narxlar so'mda ko'rsatilgan. Aniq mahsulot bo'yicha yakuniy narx — menejer hisob-kitobidan keyin.",
     langSwitcherLabel: "Til",
+    bonusLabel: "Bonus",
+    th: { service: "Xizmat", tier: "Tiraj", type: "Turi", warehouse: "Ombor" },
   },
   en: {
     siteTitle: "SellerLab Pricelist",
@@ -90,6 +96,8 @@ export const UI: Record<Lang, UIStrings> = {
     notice:
       "Prices are in UZS. Final pricing for a specific product — after a manager's calculation.",
     langSwitcherLabel: "Language",
+    bonusLabel: "Bonus",
+    th: { service: "Service", tier: "Tier", type: "Type", warehouse: "Warehouse" },
   },
   zh: {
     siteTitle: "SellerLab 价目表",
@@ -107,6 +115,8 @@ export const UI: Record<Lang, UIStrings> = {
     updatedLabel: "更新于",
     notice: "价格以乌兹别克斯坦苏姆 (UZS) 计。具体商品的最终价格由客户经理核算后确定。",
     langSwitcherLabel: "语言",
+    bonusLabel: "赠送",
+    th: { service: "服务", tier: "数量", type: "类型", warehouse: "仓库" },
   },
 };
 

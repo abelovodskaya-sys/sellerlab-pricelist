@@ -1,0 +1,29 @@
+{
+  "transport": {
+    "title": "电商平台退货取件",
+    "note": "由专车前往取回卖家的退货。从下单起 3 个工作日内完成。",
+    "columns": ["拉博面包车（至 2.5 m³）", "嘎斯卡车（至 8 托盘）"],
+    "rows": [
+      { "warehouse": "UZUM Kuyluk", "prices": ["200 000", "580 000"] },
+      { "warehouse": "UZUM Sergeli", "prices": ["200 000", "580 000"] },
+      { "warehouse": "Yandex",       "prices": ["220 000", "620 000"] }
+    ]
+  },
+  "services": {
+    "title": "仓库退货处理",
+    "items": [
+      { "label": "取件时点数", "description": "每件。", "price": "250" },
+      { "label": "缺陷检验及照片报告", "price": "2 500" },
+      { "label": "纸箱 60×40×40 cm", "price": "15 000" },
+      { "label": "纸箱装卸", "price": "2 500" },
+      { "label": "托盘装卸（自动）", "price": "10 000" },
+      { "label": "托盘装卸（手动）", "price": "20 000" },
+      { "label": "上门取件", "price": "25 000" },
+      {
+        "label": "退货存储（每托盘每天）",
+        "description": "前 5 天免费。",
+        "price": "4 500 起"
+      }
+    ]
+  }
+}
