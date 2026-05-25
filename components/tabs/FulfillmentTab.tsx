@@ -7,10 +7,7 @@ export function FulfillmentTab({ data, lang }: { data: FulfillmentData; lang: La
     <div className="space-y-12">
       {/* Main matrix */}
       <Section title={data.matrix.title} description={data.intro?.note}>
-        <div
-          className="rounded-[20px] border border-[var(--color-soft)]"
-          style={{ overflowX: "auto", overflowY: "clip" }}
-        >
+        <div className="w-max max-w-full rounded-[20px] border border-[var(--color-soft)] sm:w-auto">
           <table className="w-full min-w-[760px] border-collapse text-[13px]">
             <thead>
               <tr className="text-left">
@@ -43,10 +40,7 @@ export function FulfillmentTab({ data, lang }: { data: FulfillmentData; lang: La
 
       {/* FBS */}
       <Section title={data.fbs.title} description={data.fbs.description}>
-        <div
-          className="rounded-[20px] border border-[var(--color-soft)]"
-          style={{ overflowX: "auto", overflowY: "clip" }}
-        >
+        <div className="w-max max-w-full rounded-[20px] border border-[var(--color-soft)] sm:w-auto">
           <table className="w-full min-w-[680px] border-collapse text-[13px]">
             <thead>
               <tr className="text-left">
@@ -86,10 +80,7 @@ export function FulfillmentTab({ data, lang }: { data: FulfillmentData; lang: La
 
       {/* Supply (platforms grid) */}
       <Section title={data.supply.title}>
-        <div
-          className="rounded-[20px] border border-[var(--color-soft)]"
-          style={{ overflowX: "auto", overflowY: "clip" }}
-        >
+        <div className="w-max max-w-full rounded-[20px] border border-[var(--color-soft)] sm:w-auto">
           <table className="w-full min-w-[480px] border-collapse text-[13px]">
             <thead>
               <tr className="text-left">
