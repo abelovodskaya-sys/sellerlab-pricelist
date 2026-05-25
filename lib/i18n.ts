@@ -42,7 +42,7 @@ export const UI: Record<Lang, UIStrings> = {
   ru: {
     siteTitle: "Прайс-лист SellerLab",
     tagline: "Фулфилмент в Ташкенте, возвраты, контент, ведение магазинов на Uzum Market, WB, Yandex Market Go.",
-    contactCta: "Обсудить проект",
+    contactCta: "Связаться",
     contactCtaUrl: "https://t.me/sellerlabuz",
     telegramLabel: "Telegram",
     calculatorLabel: "Калькулятор",
@@ -62,7 +62,7 @@ export const UI: Record<Lang, UIStrings> = {
   uz: {
     siteTitle: "SellerLab narxlar ro'yxati",
     tagline: "Toshkentda fulfilment, qaytarishlar, kontent, Uzum Market, WB, Yandex Market Go do'konlarini boshqarish.",
-    contactCta: "Loyihani muhokama qilish",
+    contactCta: "Bog'lanish",
     contactCtaUrl: "https://t.me/sellerlabuz",
     telegramLabel: "Telegram",
     calculatorLabel: "Kalkulyator",
@@ -82,7 +82,7 @@ export const UI: Record<Lang, UIStrings> = {
   en: {
     siteTitle: "SellerLab Pricelist",
     tagline: "Fulfillment in Tashkent, returns, content, shop management on Uzum Market, WB, Yandex Market Go.",
-    contactCta: "Discuss your project",
+    contactCta: "Contact us",
     contactCtaUrl: "https://t.me/sellerlabuz",
     telegramLabel: "Telegram",
     calculatorLabel: "Calculator",
@@ -102,7 +102,7 @@ export const UI: Record<Lang, UIStrings> = {
   zh: {
     siteTitle: "SellerLab 价目表",
     tagline: "塔什干履约、退货、内容、Uzum Market / WB / Yandex Market Go 店铺运营。",
-    contactCta: "讨论项目",
+    contactCta: "联系我们",
     contactCtaUrl: "https://t.me/sellerlabuz",
     telegramLabel: "Telegram",
     calculatorLabel: "计算器",

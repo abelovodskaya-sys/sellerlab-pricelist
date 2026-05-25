@@ -14,7 +14,10 @@ export function ReturnsTab({ data, lang }: { data: ReturnsData; lang: Lang }) {
             {data.transport.note}
           </p>
         )}
-        <div className="overflow-x-auto rounded-[20px] border border-[var(--color-soft)]">
+        <div
+          className="rounded-[20px] border border-[var(--color-soft)]"
+          style={{ overflowX: "auto", overflowY: "clip" }}
+        >
           <table className="w-full min-w-[520px] border-collapse text-[13px]">
             <thead>
               <tr className="text-left">

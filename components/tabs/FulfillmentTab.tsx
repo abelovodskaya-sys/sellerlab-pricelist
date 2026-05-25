@@ -7,14 +7,17 @@ export function FulfillmentTab({ data, lang }: { data: FulfillmentData; lang: La
     <div className="space-y-12">
       {/* Main matrix */}
       <Section title={data.matrix.title} description={data.intro?.note}>
-        <div className="overflow-x-auto rounded-[20px] border border-[var(--color-soft)]">
+        <div
+          className="rounded-[20px] border border-[var(--color-soft)]"
+          style={{ overflowX: "auto", overflowY: "clip" }}
+        >
           <table className="w-full min-w-[760px] border-collapse text-[13px]">
             <thead>
               <tr className="text-left">
-                <th className="sticky top-[124px] z-20 bg-[var(--color-smoke)] px-4 py-3 text-left font-semibold text-[var(--color-ink)]" rowSpan={2}>
+                <th className="sticky top-[124px] z-20 bg-[var(--color-smoke)] px-4 py-3 text-left align-bottom font-semibold text-[var(--color-ink)]">
                   {ui.th.service}
                 </th>
-                <th className="sticky top-[124px] z-20 bg-[var(--color-smoke)] px-4 py-3 text-left font-semibold text-[var(--color-ink)]" rowSpan={2}>
+                <th className="sticky top-[124px] z-20 bg-[var(--color-smoke)] px-4 py-3 text-left align-bottom font-semibold text-[var(--color-ink)]">
                   {ui.th.tier}
                 </th>
                 {data.matrix.columns.map((c) => (
@@ -28,7 +31,6 @@ export function FulfillmentTab({ data, lang }: { data: FulfillmentData; lang: La
                   </th>
                 ))}
               </tr>
-              <tr aria-hidden />
             </thead>
             <tbody>
               {data.matrix.groups.map((g, gi) => (
@@ -41,7 +43,10 @@ export function FulfillmentTab({ data, lang }: { data: FulfillmentData; lang: La
 
       {/* FBS */}
       <Section title={data.fbs.title} description={data.fbs.description}>
-        <div className="overflow-x-auto rounded-[20px] border border-[var(--color-soft)]">
+        <div
+          className="rounded-[20px] border border-[var(--color-soft)]"
+          style={{ overflowX: "auto", overflowY: "clip" }}
+        >
           <table className="w-full min-w-[680px] border-collapse text-[13px]">
             <thead>
               <tr className="text-left">
@@ -81,7 +86,10 @@ export function FulfillmentTab({ data, lang }: { data: FulfillmentData; lang: La
 
       {/* Supply (platforms grid) */}
       <Section title={data.supply.title}>
-        <div className="overflow-x-auto rounded-[20px] border border-[var(--color-soft)]">
+        <div
+          className="rounded-[20px] border border-[var(--color-soft)]"
+          style={{ overflowX: "auto", overflowY: "clip" }}
+        >
           <table className="w-full min-w-[480px] border-collapse text-[13px]">
             <thead>
               <tr className="text-left">
