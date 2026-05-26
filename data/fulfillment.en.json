@@ -196,18 +196,18 @@
         "price": "2 500"
       },
       {
-        "label": "1 m³",
+        "label": "1 pallet (up to 1.8 m³)",
         "description": "First 5 days free, then per day.",
-        "price": "8 000"
+        "price": "on request"
       },
       {
-        "label": "1 pallet (up to 160 cm)",
+        "label": "1 pallet, long-term storage (up to 1.8 m³)",
         "description": "First 5 days free, then per day.",
-        "price": "from 4 900"
+        "price": "on request"
       },
       {
         "label": "High-value goods",
-        "description": "Expensive electronics (>2M UZS/unit). Per cell per day, up to 3 SKUs and 30 units.",
+        "description": "Expensive electronics (>2M UZS/unit). Per cell per day, up to 3 SKUs and no more than 30 units.",
         "price": "5 000"
       }
     ]

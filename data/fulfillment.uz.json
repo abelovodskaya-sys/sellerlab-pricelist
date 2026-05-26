@@ -196,18 +196,18 @@
         "price": "2 500"
       },
       {
-        "label": "1 m³",
+        "label": "1 palet (1,8 m³ gacha)",
         "description": "Birinchi 5 kun bepul, keyin har kun uchun.",
-        "price": "8 000"
+        "price": "so'rov bo'yicha"
       },
       {
-        "label": "1 palet (160 sm gacha)",
+        "label": "1 palet, uzoq muddatli saqlash (1,8 m³ gacha)",
         "description": "Birinchi 5 kun bepul, keyin har kun uchun.",
-        "price": "4 900 dan"
+        "price": "so'rov bo'yicha"
       },
       {
         "label": "Qimmatbaho tovarlar",
-        "description": "Qimmatbaho elektronika (>2 mln so'm/dona). Yacheyka uchun bir kunlik narx, 3 ta SKU va 30 donagacha.",
+        "description": "Qimmatbaho elektronika (>2 mln so'm/dona). Yacheyka uchun bir kunlik narx, 3 ta SKU va 30 ta donadan oshmagan tovar.",
         "price": "5 000"
       }
     ]
